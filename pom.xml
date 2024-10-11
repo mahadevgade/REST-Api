@@ -14,7 +14,11 @@
 	<name>REST-APIs_SB</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+	
+		       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <java.version>20</java.version>
+       <maven.compiler.release>${java.version}</maven.compiler.release>
+
 	</properties>
 	<dependencies>
 		
