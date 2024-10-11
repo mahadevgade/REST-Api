@@ -2,8 +2,8 @@
 
 FROM openjdk:17
 
-COPY target/usrmgmt.jar usrmgmt.jar
+COPY target/REST-APIs_SB.jar REST-APIs_SB.jar
 
 EXPOSE 8080 
 
-ENTRYPOINT ["java", "-jar", "usrmgmt.jar"]  
+ENTRYPOINT ["java", "-jar", "REST-APIs_SB.jar"]  
