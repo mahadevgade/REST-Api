@@ -63,7 +63,7 @@
 
 	<build>
 	
-	<finalName>usrmgmt</finalName>
+	<finalName>REST-APIs_SB</finalName>
 	
 		<plugins>
 			<plugin>
