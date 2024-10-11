@@ -1,6 +1,6 @@
 
 
-FROM openjdk:17
+FROM openjdk:20
 
 COPY target/REST-APIs_SB.jar REST-APIs_SB.jar
 
